@@ -9,6 +9,7 @@
 
 .main-container p {
     user-select: none;
+    cursor: pointer;
     transition: .2s;
 }
 
@@ -16,6 +17,7 @@
     color: #696fdd;
     scale: 1.2;
     border-radius: 5px;
+    cursor: default;
 }
 
 .main-container p.active:nth-child(1) {
